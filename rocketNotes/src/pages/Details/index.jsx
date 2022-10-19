@@ -1,5 +1,12 @@
+import { Container } from './styles'
+ 
+import { Button } from '../../components/Button'
+
+
 export function Details(){
-    return(
-        <h1>hello Hord</h1>
+    return ( 
+     <Container>
+       <Button />
+     </Container>
     )
 }
