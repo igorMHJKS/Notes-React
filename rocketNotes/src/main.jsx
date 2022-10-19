@@ -6,7 +6,7 @@ import {ThemeProvider} from 'styled-components'
 import theme from './styles/theme'
 import GlobalStyle from './styles/global'
 import { Details } from './pages/Details'
-import { Header } from './components/Header'
+
 
 
 
@@ -15,7 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
       <Details />
-      <Header/>
     </ThemeProvider>
   </React.StrictMode>
 )
