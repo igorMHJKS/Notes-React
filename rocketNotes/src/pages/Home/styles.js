@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns:25.0rem auto;
+  grid-template-columns:10rem auto;
   grid-template-rows:10.5rem 12.8rem auto 6.4rem ;
   grid-template-areas: 
   "brand header"
@@ -17,30 +17,83 @@ export const Container = styled.div`
   ;
 
   background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
-`
+
+  >header{
+     padding: 1rem;
+
+    span{
+      font-size: 1rem;
+    }
+    
+    strong{
+      font-size:1.3rem ;
+    }
+    svg{
+      width: 2rem;
+    }
+  }
+`;
 //
 export const Brand = styled.div`
    grid-area: brand;
-   background: red;
-`
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border-bottom-width: 0.1rem;
+   border-bottom-style: solid;
+   border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+
+   background-color: ${({theme}) => theme.COLORS.BACKGROUND_900} ;
+
+   >h1{
+    color: ${({theme}) => theme.COLORS.ORANGE};
+    font-size: 1.4rem;
+   }
+
+   
+`;
 //
 
 export const NewNote = styled.button`
   grid-area: newnote;
-   background: blue;
-`
+
+  background-color: ${({theme}) => theme.COLORS.ORANGE};
+
+  border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+   svg{
+    margin-right:0.8rem ;
+   }
+`;
 //
 export const Search = styled.div`
     grid-area: search;
-   background: green;
- `
+    border: 0;
+ ;`
 //
 export const Content = styled.div`
    grid-area: content;
-   background: pink;
-`
+`;
 //
 export const Menu = styled.ul`
    grid-area: menu;
-   background: yellow;
+
+   padding-top: 6.4rem;
+   text-align: center;
+  
+   color: ${({theme}) => theme.COLORS.ORANGE};
+   background-color: ${({theme}) => theme.COLORS.BACKGROUND_900} ;
+   font-size: 1.2rem;
+
+   cursor: pointer;
+   >li{
+    margin-bottom: 2.4rem;
+    font-size: 1.2rem;
+   }
 `
