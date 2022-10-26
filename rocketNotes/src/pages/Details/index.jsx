@@ -10,6 +10,10 @@ import { ButtonText } from '../../components/Buttontext'
 
 
 
+
+
+
+
 export function Details(){
     return ( 
       
@@ -18,6 +22,7 @@ export function Details(){
 
         <main>
           <Content>
+          
           
        <ButtonText title={"Excluir Nota "}/>
 
@@ -38,11 +43,13 @@ export function Details(){
               <li><a href="#">https://www.rocketseat.com.br/</a></li> 
               <li><a href="#">https://www.rocketseat.com.br/</a></li>        
           </Links>
+          
        </Section>
 
        <Section title={"Marcadores"}>
           <Tag title={"Express"}/>
           <Tag title={"node.js"}/>
+          
        </Section>
        <Button title="Voltar"/>
           </Content>
