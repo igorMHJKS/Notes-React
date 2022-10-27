@@ -11,7 +11,7 @@ export const Container = styled.div`
      background-color: ${({theme}) => theme.COLORS.BACKGROUND_900} ;
      color: ${({theme}) => theme.COLORS.WHITE} ;
 
-     margin: 3rem auto;
+     margin: 0.8rem auto;
      border-radius: 1.0rem;
 
      >input{

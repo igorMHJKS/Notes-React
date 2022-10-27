@@ -14,6 +14,7 @@ import { ButtonText } from '../../components/Buttontext'
 
 
 
+
 export function Details(){
     return ( 
       
