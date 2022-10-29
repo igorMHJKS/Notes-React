@@ -5,7 +5,7 @@ import {ThemeProvider} from 'styled-components'
 
 import theme from './styles/theme'
 import GlobalStyle from './styles/global'
-import { Profile} from './pages/Profile'
+import { Create} from './pages/Create'
 
 
 
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
-      <Profile />
+      <Create />
     </ThemeProvider>
   </React.StrictMode>
 )
