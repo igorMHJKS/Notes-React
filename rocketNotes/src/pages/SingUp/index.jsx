@@ -2,6 +2,7 @@ import {Container, Form, Background }from './styles'
 import {Input }from '../../components/Input'
 import { FiMail, FiLock, FiUser} from 'react-icons/fi'
 import { Button } from '../../components/Button'
+import {Link } from 'react-router-dom'
 
 
 
@@ -25,7 +26,9 @@ export function SingUp (){
 
                 <Button title="Cadastrar"/>
 
-                <a href="#"> Voltar para login</a>
+               <Link to="/">
+                Voltar para login
+               </Link>
                 
                 
             </Form>

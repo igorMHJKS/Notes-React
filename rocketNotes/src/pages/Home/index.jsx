@@ -6,8 +6,9 @@ import {Header} from '../../components/Header'
 import {ButtonText} from '../../components/Buttontext'
 import {Input} from '../../components/Input'
 import { Section } from '../../components/Section'
-import { Note } from '../../components/Note'
+import { Notes } from '../../components/Notes'
 import React from 'react'
+import {Link } from 'react-router-dom'
 
 
 
@@ -38,16 +39,14 @@ export function Home (){
 
             <Content>
               <Section title="Minhas Notas">
-                 <Note data={{ title: "React", tags: [{id: 1, name: "React"},
+                 <Notes data={{ title: "React", tags: [{id: 1, name: "React"},
                  { id: 2, name: "node"}
                 ]} }/>
 
               </Section>
             </Content>
 
-            <NewNote>
-
-
+            <NewNote to="/create">
               <FiPlus/>
               Criar nota
             </NewNote>
