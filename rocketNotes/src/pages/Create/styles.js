@@ -14,22 +14,22 @@ export const Container = styled.div`
    margin: 0 auto;
     
 
-
+>main{
+  grid-area: content;
+  overflow-y: auto;
+}
 `
 
 
 export const Form = styled.form`
 
-  width: 85%;
+  width: 100%;
   max-width: 55.0rem;
   margin: 3.8rem auto;
 
  >button{
-  width: 95%;
-  margin-left: 0.9rem;
- 
+  width: 100%;
  }
-  
   >header{
     display: flex;
     align-items: center;
