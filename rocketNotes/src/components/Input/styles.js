@@ -2,8 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
  
-     width: 100%;
 
+         @media(min-width: 80em){
+          width: 100%;
+         } 
+
+     width: 80%;
+     
      display: flex;
      align-items: center;
      
@@ -11,10 +16,15 @@ export const Container = styled.div`
      background-color: ${({theme}) => theme.COLORS.BACKGROUND_900} ;
      color: ${({theme}) => theme.COLORS.WHITE} ;
 
-     margin: 0.8rem auto;
+     margin: 1rem ;
+     margin-left: 3.8rem;
+
      border-radius: 1.0rem;
 
+     
      >input{
+
+       
         height: 5.6rem;
         width: 100%;
 

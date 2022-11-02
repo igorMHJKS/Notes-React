@@ -32,6 +32,9 @@ export const Container = styled.div`
             margin-top: 2.4rem;
         }
 
+        button{
+          margin-left: 3rem;
+        }
 
    `
 

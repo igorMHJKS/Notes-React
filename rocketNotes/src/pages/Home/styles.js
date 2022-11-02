@@ -79,8 +79,9 @@ export const Search = styled.div`
 //
 export const Content = styled.div`
    grid-area: content;
+   width: 100%;
    overflow-y: auto;
-   padding: 6.4rem 6.4rem;
+   padding: 6.4rem 5rem;
 `;
 //
 export const Menu = styled.ul`

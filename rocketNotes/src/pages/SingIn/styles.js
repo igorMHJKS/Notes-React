@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import Backgroundimg from '../../assets/re2.png'
 
 export const Container = styled.div`
-
+ 
+ 
     height: 100vh;
     display: flex;
     align-items: stretch;
@@ -11,7 +12,8 @@ export const Container = styled.div`
     `
 
 export const Form = styled.form`
-
+    
+ 
     margin: 0 auto ;
      display: flex;
      flex-direction: column;
@@ -19,7 +21,9 @@ export const Form = styled.form`
      align-items: center;
      text-align: center;
 
-
+    >button{
+        margin: 1rem auto;
+    }
  
      @media(min-width: 40rem){
         
@@ -72,7 +76,7 @@ export const Background = styled.div`
 
         background-image: url(${ Backgroundimg}) ;
         width: 40rem;
-        height: 120rem;
+        height: 64.5rem;
         opacity: 0.5;
 
 

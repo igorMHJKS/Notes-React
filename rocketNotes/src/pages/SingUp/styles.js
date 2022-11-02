@@ -72,7 +72,7 @@ export const Background = styled.div`
 
         background-image: url(${ Backgroundimg}) ;
         width: 40rem;
-        height: 120rem;
+        height: 64.5rem;
         opacity: 0.5;
 
 

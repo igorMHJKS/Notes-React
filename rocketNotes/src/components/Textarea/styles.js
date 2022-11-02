@@ -2,7 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.textarea`
 
-width: 100%;
+         @media(min-width: 80em){
+          width: 100%;
+          margin: 0 auto;
+         } 
+width: 80%;
+margin-left: 3.8rem;
 height: 15.0rem;
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
 color: ${({theme}) => theme.COLORS.WHITE};
